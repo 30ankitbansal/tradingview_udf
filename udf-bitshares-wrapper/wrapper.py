@@ -23,7 +23,7 @@ CORS(app)
 
 
 if __name__ == "__main__":
-    app.run(host='198.245.75.250', port=5001)
+    app.run(host='0.0.0.0', port=5001)
 
 
 def sql_connect(query):
